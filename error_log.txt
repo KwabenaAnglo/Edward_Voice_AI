@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-06 13:29:43",
+  "error_type": "OpenAIError",
+  "error_message": "The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable",
+  "last_user_message": "hi",
+  "conversation_length": 2
+}
+
+{
+  "timestamp": "2026-02-06 13:41:13",
+  "error_type": "API Error",
+  "error_message": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}",
+  "last_user_message": "hi",
+  "conversation_length": 2
+}
+
