@@ -40,6 +40,10 @@ load_environment()
 OPENAI_API_KEY: Optional[str] = os.getenv("OPENAI_API_KEY")
 ELEVENLABS_API_KEY: Optional[str] = os.getenv("ELEVENLABS_API_KEY")
 
+# Debug logging
+logger.info(f"OpenAI API Key loaded: {bool(OPENAI_API_KEY)}")
+logger.info(f"ElevenLabs API Key loaded: {bool(ELEVENLABS_API_KEY)}")
+
 # Application Settings
 ASSISTANT_NAME: str = os.getenv("ASSISTANT_NAME", "Edward")
 VOICE_NAME: str = os.getenv("VOICE_NAME", "Adam")

@@ -14,3 +14,35 @@
   "conversation_length": 2
 }
 
+{
+  "timestamp": "2026-02-06 13:54:41",
+  "error_type": "API Error",
+  "error_message": "Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}",
+  "last_user_message": "hi",
+  "conversation_length": 2
+}
+
+{
+  "timestamp": "2026-02-06 14:05:51",
+  "error_type": "API Error",
+  "error_message": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+  "last_user_message": "hi",
+  "conversation_length": 2
+}
+
+{
+  "timestamp": "2026-02-11 16:20:35",
+  "error_type": "API Error",
+  "error_message": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+  "last_user_message": "hi",
+  "conversation_length": 2
+}
+
+{
+  "timestamp": "2026-02-11 16:20:58",
+  "error_type": "API Error",
+  "error_message": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+  "last_user_message": "ohk what time is it",
+  "conversation_length": 3
+}
+
